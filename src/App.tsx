@@ -1,4 +1,5 @@
 import vesikalik from './assets/vesikalik.jpg';
+import flower from './assets/Flower.png';
 
 function App() {
   return (
@@ -58,10 +59,18 @@ function App() {
 
         <section id="projeler">
           <h2>Projelerim</h2>
-          <article style={{ borderLeft: '4px solid #2563eb', paddingLeft: '1rem' }}>
-            <h3>E-Ticaret Sitesi</h3> 
-            <p>React ve TypeScript kullanarak geliştirdiğim, tam erişilebilir bir alışveriş deneyimi.</p>
-          </article>
+          <div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap', justifyContent: 'center' }}>
+            <article style={{ borderLeft: '4px solid #2563eb', paddingLeft: '1rem', flex: '1 1 350px', maxWidth: '420px', background: '#f9fafb', borderRadius: '12px', boxShadow: '0 2px 8px #0001' }}>
+              <img src={flower} alt="Animasyonlu çiçek görseli" style={{ width: '100%', maxWidth: '380px', height: '260px', objectFit: 'cover', borderRadius: '8px', marginBottom: '1rem', marginTop: '1rem' }} />
+              <h3>Anismasyonlu Çiçek</h3> 
+              <p>HTML CSS VE JavaScript kullanarak geliştirdiğim bir çiçek animasyonu.</p>
+            </article>
+            <article style={{ borderLeft: '4px solid #2563eb', paddingLeft: '1rem', flex: '1 1 350px', maxWidth: '420px', background: '#f9fafb', borderRadius: '12px', boxShadow: '0 2px 8px #0001' }}>
+              <img src={flower} alt="Web site Anasayfa" style={{ width: '100%', maxWidth: '380px', height: '260px', objectFit: 'cover', borderRadius: '8px', marginBottom: '1rem', marginTop: '1rem' }} />
+              <h3>Burada.com</h3> 
+              <p>Next.js ve Tailwind CSS kullanarak geliştirdiğim bir web sitesi.</p>
+            </article>
+          </div>
         </section>
 
         <section id="iletisim">
@@ -113,7 +122,7 @@ function App() {
       </main>
 
       <footer>
-        <p style={{ textAlign: 'center' }}>&copy; 2025 Abdullah Can Deliat. Tüm hakları saklıdır.</p>
+        <p style={{ textAlign: 'center' }}>&copy; 2026 Mehmet Fırat Yılmaz. Tüm hakları saklıdır.</p>
       </footer>
     </>
   );
