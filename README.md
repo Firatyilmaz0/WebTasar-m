@@ -26,3 +26,4 @@ npm run dev
 Tarayicida http :// localhost :5173 adresini ac.
 
 ## Ekran Goruntusu
+<img width="700" height="545" alt="Ekran Resmi 2026-02-24 18 10 49" src="https://github.com/user-attachments/assets/c555414f-a220-4760-bbf8-f200aa925b67" />
